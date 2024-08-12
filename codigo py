@@ -1,0 +1,4 @@
+n1 = input('Qual é o seu nome?')
+n2 = int(input('Qual é a sua idade:'))
+s = 100 - n2
+print('Oi, {}! Faltam {} anos para você completar 100 anos!'.format(n1,s))
